@@ -7,6 +7,10 @@ git checkout v4.2
 source export.sh
 cd ..
 
+# copy esp32-camera to esp-idf
+mkdir esp-idf/components/esp32-camera
+cp -v -r esp-idf-components-esp32-camera/* esp-idf/components/esp32-camera
+
 # checkout micropython version v1.18
 cd micropython
 git checkout v1.18
