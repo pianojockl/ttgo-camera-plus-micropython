@@ -1,0 +1,15 @@
+[submodule "modules/micropython-camera-driver"]
+	path = modules/micropython-camera-driver
+	url = https://github.com/lemariva/micropython-camera-driver
+[submodule "modules/st7789_mpy"]
+	path = modules/st7789_mpy
+	url = https://github.com/russhughes/st7789_mpy.git
+[submodule "micropython"]
+	path = micropython
+	url = https://github.com/micropython/micropython
+[submodule "esp-idf"]
+	path = esp-idf
+	url = https://github.com/espressif/esp-idf.git
+[submodule "esp-idf-components-esp32-camera"]
+	path = esp-idf-components-esp32-camera
+	url = https://github.com/espressif/esp32-camera
